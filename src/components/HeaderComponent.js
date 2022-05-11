@@ -1,13 +1,19 @@
 import React from 'react';
-import {Navbar, Collapse, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import {Navbar, Collapse, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, UncontrolledDropdown, Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
 
 function Header() {
 
     const [navCollapse, setNavCollapse] = React.useState(false)
+    const [dropDownOpen, setDropDownOpen] = React.useState(false)
 
     function toggleNavbarCollapse() {
         setNavCollapse(prev => !prev)
     }
+
+    function toggleDropDown() {
+        setDropDownOpen(prev => !prev)
+    }
+
     return (
         <>
         <Navbar color="faded" light expand="md">
@@ -26,7 +32,7 @@ function Header() {
                     <NavItem>
                         <NavLink href="/contact">Contact</NavLink>
                     </NavItem>
-                    <UncontrolledDropdown nav inNavbar>
+                    <Dropdown nav isOpen={dropDownOpen} toggle={toggleDropDown}>
                         <DropdownToggle nav caret>
                             Projects
                         </DropdownToggle>
@@ -41,7 +47,7 @@ function Header() {
                                 Option 3
                             </DropdownItem>
                         </DropdownMenu>
-                    </UncontrolledDropdown>
+                    </Dropdown>
 
                 </Nav>
             </Collapse>
