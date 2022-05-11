@@ -5,12 +5,10 @@ import { Stack } from "react-bootstrap";
 function Footer() {
   return (
     <>
-      <div>
-        <Stack>
-          <div>
-            <Row>
-              <Col>
-                <ul>
+      <div className="container">
+          <div className="row">
+              <div className="col col-4 offset-2">
+                <ul className="list-unstyled">
                   Socials
                   <li>
                     <a href="#">Youtube</a>
@@ -22,9 +20,9 @@ function Footer() {
                     <a href="#">LinkedIn</a>
                   </li>
                 </ul>
-              </Col>
-              <Col>
-                <ul>
+              </div>
+              <div className="col col-4 offset-2">
+                <ul className="list-unstyled">
                   Links
                   <li>
                     <a href="/">Home</a>
@@ -38,8 +36,7 @@ function Footer() {
                   <li></li>
                   <li></li>
                 </ul>
-              </Col>
-            </Row>
+              </div>
           </div>
           <div>
             <p>
@@ -47,7 +44,6 @@ function Footer() {
             </p>
             <p>Copyright 2022</p>
           </div>
-        </Stack>
       </div>
     </>
   );
