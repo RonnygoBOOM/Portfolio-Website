@@ -1,7 +1,7 @@
 
 .navbar {
   margin: 0em;
-  background-color: rgb(20, 0, 0);
+  background-color: rgb(1, 1, 26);
   width: 100%;
   color: white;
   display: flex;
@@ -11,4 +11,71 @@
 
 .navbar-brand {
   font-size: 2rem;
+}
+
+.footer {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.footer-bottom {
+text-align: center;
+
+}
+
+h1 {
+  position: relative; 
+  align-self: center;
+  padding: 3em;
+}
+
+.top-container {
+  background-color: rgb(1, 1, 26);
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+  position: relative;
+  object-fit: cover;
+}
+
+.top-image {
+  width: 100%;
+  filter: brightness(30%);
+
+}
+
+.top-text {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin: 4vw 0 0 0;
+  padding: 0;
+  color: white;
+  font-size: 4vw;
+  background-color: rbg(0, 0, 0, .5);
+  font-family: Courier;
+}
+
+.bottom-text {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin: 7vw 0 0 0;
+  padding: 0;
+  color: rgb(147, 195, 218);
+  background-color: rbg(0, 0, 0, .5);
+  font-family: Courier;
+  font-size: 5.5vw;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes bottom-text {
+  from {
+    text-shadow: 0 0 10vw #fff, 0 0 20vw #fff, 0 0 30vw #b7e901, 0 0 40vw #b7e901, 0 0 50vw #b7e901, 0 0 60vw #b7e901, 0 0 70vw #b7e901;
+  }
+  to {
+    text-shadow: 0 0 20vw #fff, 0 0 30vw #ff4da6, 0 0 40vw #ff4da6, 0 0 50vw #ff4da6, 0 0 60vw #ff4da6, 0 0 70vw #ff4da6, 0 0 80vw #ff4da6;
+  }
 }

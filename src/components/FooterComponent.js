@@ -6,22 +6,22 @@ function Footer() {
   return (
     <>
       <div className="container">
-          <div className="row">
-              <div className="col col-4 offset-2">
+          <div className="row footer">
+              <div className="col col-4">
                 <ul className="list-unstyled">
                   Socials
                   <li>
-                    <a href="#">Youtube</a>
+                    <a href="https://www.youtube.com/channel/UCDpvI_BpoMILcRxXUXlbwvg">Youtube</a>
                   </li>
                   <li>
-                    <a href="#">Twitter</a>
+                    <a href="https://www.twitter.com/RonScheibel_">Twitter</a>
                   </li>
                   <li>
-                    <a href="#">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/ron-scheibel-21003822a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkP7c2PDfTh2%2BLicNzoE%2B3g%3D%3D">LinkedIn</a>
                   </li>
                 </ul>
               </div>
-              <div className="col col-4 offset-2">
+              <div className="col col-4">
                 <ul className="list-unstyled">
                   Links
                   <li>
@@ -31,14 +31,12 @@ function Footer() {
                     <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="/contact">Contact Us</a>
+                    <a href="/contact">Contact Me</a>
                   </li>
-                  <li></li>
-                  <li></li>
                 </ul>
               </div>
           </div>
-          <div>
+          <div className="footer-bottom">
             <p>
               Portfolio Description
             </p>
