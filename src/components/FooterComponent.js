@@ -38,7 +38,7 @@ function Footer() {
           </div>
           <div className="footer-bottom">
             <p>
-              Portfolio Description
+              Ron Scheibel- Full-Stack Web Developer Portfolio
             </p>
             <p>Copyright 2022</p>
           </div>

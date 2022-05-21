@@ -1,0 +1,51 @@
+export const PROJECT = [
+    {
+        id: 1,
+        title: "cnftTop Website",
+        description: "As a creative portfolio project, I built a simple website for showing off digital art NFT projects. I did some experimentation with CSS here, and would like to refine it to include better content, best-practices with respect to code, and completed navigational pages.",
+        coverImg: "images/cnft-top.jpg",
+        alt: "Video to show functionality of my cnft website project",
+    },
+    {
+        id: 2,
+        title: "D&D Website",
+        description: "",
+        coverImg: "images/dnd.jpg",
+        alt: "Video to show functionality of my D&D website project",
+    },
+    {
+        id: 3,
+        title: "Tenzies Game",
+        description: "",
+        coverImg: "images/tenzies.jpg",
+        alt: "Video to show functionality of my tenzies game project",
+    },
+    {
+        id: 4,
+        title: "Meme Generator",
+        description: "",
+        coverImg: "images/meme-generator.jpg",
+        alt: "Video to show functionality of my meme generator website project",
+    },
+    {
+        id: 5,
+        title: "Nucampsite Mobile App",
+        description: "",
+        coverImg: "images/react-native-mobile-app.jpg",
+        alt: "Video to show functionality of my Nucampsite mobile app project",
+    },
+    {
+        id: 6,
+        title: "Airbnb Landing Page",
+        description: "",
+        coverImg: "images/airbnb-clone.png",
+        alt: "Image to show the display of my Airbnb landing page project",
+    },
+    {
+        id: 7,
+        title: "Digital Business Card",
+        description: "",
+        coverImg: "images/digital-business-card.png",
+        alt: "Image to show the display of my digital business card project",
+    },
+]

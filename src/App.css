@@ -26,7 +26,22 @@ text-align: center;
 h1 {
   position: relative; 
   align-self: center;
-  padding: 3em;
+  padding: 1em;
+}
+
+.contact {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  margin-left: 5em;
+  padding: 1em;
+}
+.about p {
+  margin: 0 5em 0 5em;
+  text-indent: 30pt;
 }
 
 .top-container {
@@ -48,7 +63,7 @@ h1 {
   display: flex;
   position: absolute;
   text-align: center;
-  margin: 4vw 0 0 0;
+  margin: 40vw 0 0 0;
   padding: 0;
   color: white;
   font-size: 4vw;
@@ -60,22 +75,41 @@ h1 {
   display: flex;
   position: absolute;
   text-align: center;
-  margin: 7vw 0 0 0;
+  margin: 43vw 0 0 0;
   padding: 0;
   color: rgb(147, 195, 218);
   background-color: rbg(0, 0, 0, .5);
   font-family: Courier;
   font-size: 5.5vw;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
 }
 
-@-webkit-keyframes bottom-text {
-  from {
-    text-shadow: 0 0 10vw #fff, 0 0 20vw #fff, 0 0 30vw #b7e901, 0 0 40vw #b7e901, 0 0 50vw #b7e901, 0 0 60vw #b7e901, 0 0 70vw #b7e901;
-  }
-  to {
-    text-shadow: 0 0 20vw #fff, 0 0 30vw #ff4da6, 0 0 40vw #ff4da6, 0 0 50vw #ff4da6, 0 0 60vw #ff4da6, 0 0 70vw #ff4da6, 0 0 80vw #ff4da6;
-  }
+
+.card {
+  flex: 0 0 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  border: none !important;
+  overflow: hidden !important;
+}
+
+.card-img {
+border-radius: .7em !important;
+aspect-ratio: 1 / 1;
+object-fit: cover;
+margin: 3em 1em 0 0 !important;
+border: solid;
+border-width: 2px;
+}
+
+.card-text {
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 0;
+}
+
+.card-text p {
+margin: 0;
+padding: 0;
 }

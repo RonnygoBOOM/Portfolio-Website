@@ -1,4 +1,6 @@
 import React from "react";
+import {PROJECT} from '../shared/project';
+import Cards from '../components/CardsComponent';
 
 function Home(props) {
   return (
@@ -16,12 +18,7 @@ function Home(props) {
       </container>
       <h1>Portfolio Items Here</h1>
       <container>
-        <row>
-          
-        </row>
-        <row>
-
-        </row>
+        <Cards project={PROJECT}/>
       </container>
     </>
   );
