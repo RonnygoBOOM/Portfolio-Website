@@ -5,11 +5,12 @@ function Cards(props) {
         return (
         <Col key={item.id} sm={{size:3, offset: 1}}>
             <Card>
+            <a href={item.link}>
                 <CardImg src={item.coverImg} alt={item.alt}></CardImg>
+            </a>
                 <CardText>
                     <p>{item.title}</p>
                 </CardText>
-                
             </Card>
         </Col>
         )
