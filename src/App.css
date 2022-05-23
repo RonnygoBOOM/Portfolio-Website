@@ -17,6 +17,7 @@
   justify-content: center;
   display: flex;
   text-align: center;
+  margin-top: 3em !important;
 }
 .footer-bottom {
 text-align: center;
@@ -29,10 +30,19 @@ h1 {
   padding: 1em;
 }
 
+h2 {
+  position: relative; 
+  align-self: center;
+  padding: 1em;
+}
+
 .contact {
   text-align: center;
   margin: 0;
   padding: 0;
+}
+.contact p {
+  margin: 0 5em 0 5em;
 }
 
 .about {
@@ -63,7 +73,7 @@ h1 {
   display: flex;
   position: absolute;
   text-align: center;
-  margin: 40vw 0 0 0;
+  margin: 35vw 0 0 0;
   padding: 0;
   color: white;
   font-size: 4vw;
@@ -83,6 +93,10 @@ h1 {
   font-size: 5.5vw;
 }
 
+.card-row {
+  justify-content: center;
+  margin: 0 !important;
+}
 
 .card {
   flex: 0 0 auto !important;
@@ -90,13 +104,14 @@ h1 {
   flex-direction: column !important;
   border: none !important;
   overflow: hidden !important;
+  margin-bottom: 3em;
 }
 
 .card-img {
 border-radius: .7em !important;
 aspect-ratio: 1 / 1;
 object-fit: cover;
-margin: 3em 1em 0 0 !important;
+margin: 0em 1em 0em 0 !important;
 border: solid;
 border-width: 2px;
 border-color: black;

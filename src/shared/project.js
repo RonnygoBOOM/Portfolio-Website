@@ -26,6 +26,14 @@ export const PROJECT = [
     },
     {
         id: 4,
+        title: "1st Bootstrap Site",
+        description: "This was my first bootstrap portfolio website",
+        coverImg: "images/drunken-dragon.png",
+        link: "https://dndnftgame.com/",
+        alt: "Video to show functionality of my meme generator website project",
+    },
+    {
+        id: 5,
         title: "Meme Generator",
         description: "",
         coverImg: "images/meme-generator.png",
@@ -33,7 +41,7 @@ export const PROJECT = [
         alt: "Video to show functionality of my meme generator website project",
     },
     {
-        id: 5,
+        id: 6,
         title: "Nucampsite Mobile App",
         description: "",
         coverImg: "images/react-native-mobile-app.png",
@@ -41,7 +49,7 @@ export const PROJECT = [
         alt: "Video to show functionality of my Nucampsite mobile app project",
     },
     {
-        id: 6,
+        id: 7,
         title: "Airbnb Landing Page",
         description: "",
         coverImg: "images/airbnb-clone.png",
@@ -49,7 +57,7 @@ export const PROJECT = [
         alt: "Image to show the display of my Airbnb landing page project",
     },
     {
-        id: 7,
+        id: 8,
         title: "Digital Business Card",
         description: "",
         coverImg: "images/digital-business-card.png",

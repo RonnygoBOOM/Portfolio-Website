@@ -5,8 +5,14 @@ function Contact() {
         <>
             <container className="contact">
             <h1>Contact Me</h1>
+            <p>
+                I live in Orlando, Florida, and am looking for local or remote career opportunities that will help foster my continued learning and growth.
+            </p>
+            <br/>
+            <p>I look forward to hearing from you!</p>
+            <br/>
             <p>Email: scheibelr@gmail.com</p>
-            <p>Phone: 315-222-2222</p>
+            <br/>
             </container>
         </>
     )

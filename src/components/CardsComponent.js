@@ -3,7 +3,7 @@ import { Card, CardText, CardImg, Container, Row, Col } from 'reactstrap';
 function Cards(props) {
     const myCard = props.project.map(item => {
         return (
-        <Col key={item.id} sm={{size:3, offset: 1}}>
+        <Col key={item.id} sm={{size:4}}>
             <Card>
             <a href={item.link}>
                 <CardImg src={item.coverImg} alt={item.alt}></CardImg>
