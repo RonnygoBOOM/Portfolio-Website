@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardText, CardImg, Container, Row, Col } from 'reactstrap';
+import { Card, CardText, CardImg, Row, Col } from 'reactstrap';
 function Cards(props) {
     const myCard = props.project.map(item => {
         return (

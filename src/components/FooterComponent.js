@@ -1,6 +1,4 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
-import { Stack } from "react-bootstrap";
 
 function Footer() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Collapse, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import {Navbar, Collapse, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink} from 'reactstrap';
 
 function Header() {
 
