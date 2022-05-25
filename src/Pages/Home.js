@@ -16,7 +16,9 @@ function Home(props) {
         <h2 className="top-text">Ron Scheibel</h2>
         <h2 className="bottom-text">Web Developer</h2>
       </container>
-      <h2>Explore my portfolio:</h2>
+      <h2>
+        Experiments:
+        </h2>
       <container>
       <div className="col">
         <Cards project={PROJECT}/>
