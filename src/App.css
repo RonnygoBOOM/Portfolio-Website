@@ -95,12 +95,18 @@ h2 {
 
 .card-row {
   justify-content: center;
-  margin: 0 15vw 0 15vw !important;
+  margin: 0 4vw 0 4vw !important;
 }
 
 @media only screen and (max-width: 575px) {
   .card-row {
     margin: 0 2em 0 2em !important;
+  }
+}
+
+@media only screen and (min-width: 1175px) {
+  .card-row {
+    margin: 0 15vw 0 15vw !important;
   }
 }
 
