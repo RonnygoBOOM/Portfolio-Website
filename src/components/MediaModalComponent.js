@@ -10,6 +10,7 @@ function MediaModal(props) {
             item.title
           </ModalHeader>
           <h1>MY MODAL in Modal</h1>
+          {/* if selectedProject.isWebsite ? <iframe></iframe> : selectedProject.embedlink */}
         </Modal>
       </Col>
     </>

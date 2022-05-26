@@ -10,6 +10,7 @@ const [selectedProject, setSelectedProject] = React.useState()
 function toggleModal(selection) {
   setToggleModalOpen(prev => !prev)
   setSelectedProject(prev => selection)
+  // use the selectedProject state value in the Media Modal to identify the correct project to display 
 }
 function projectSelect(selection){
   
