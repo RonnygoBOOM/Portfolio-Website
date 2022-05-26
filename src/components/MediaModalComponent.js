@@ -11,6 +11,7 @@ function MediaModal(props) {
           </ModalHeader>
           <h1>MY MODAL in Modal</h1>
           {/* if selectedProject.isWebsite ? <iframe></iframe> : selectedProject.embedlink */}
+          {/*Eventually, I would like to use netlify to set up the ACTUAL websites for users to interact with via iframe modal */}
         </Modal>
       </Col>
     </>
