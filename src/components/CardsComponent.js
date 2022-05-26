@@ -5,11 +5,11 @@ function Cards(props) {
         return (
         <Col key={item.id} sm={{size:4}}>
             <Card>
-            <a href={item.link}>
-                <CardImg src={item.coverImg} alt={item.alt}></CardImg>
-            </a>
+            {/* <a href={item.link}> */}
+                <CardImg onClick={() => {props.toggleModal(item.id)}} src={item.coverImg} alt={item.alt}></CardImg>
+            {/* </a> */}
                 <CardText>
-                    <p>{item.title}</p>
+                    {item.title}
                 </CardText>
             </Card>
         </Col>

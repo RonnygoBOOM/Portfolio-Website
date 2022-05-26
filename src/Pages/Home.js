@@ -1,11 +1,23 @@
 import React from "react";
 import {PROJECT} from '../shared/project';
 import Cards from '../components/CardsComponent';
+import MediaModal from '../components/MediaModalComponent';
 
 function Home(props) {
+
+const [toggleModalOpen, setToggleModalOpen] = React.useState(false)
+const [selectedProject, setSelectedProject] = React.useState()
+function toggleModal(selection) {
+  setToggleModalOpen(prev => !prev)
+  setSelectedProject(prev => selection)
+}
+function projectSelect(selection){
+  
+}
+
   return (
     <>
-      <container className="top-container">
+      <div className="top-container">
         <div className="col">
           <img
             className="top-image"
@@ -15,15 +27,16 @@ function Home(props) {
         </div>
         <h2 className="top-text">Ron Scheibel</h2>
         <h2 className="bottom-text">Web Developer</h2>
-      </container>
+      </div>
       <h2>
         Experiments:
         </h2>
-      <container>
+      <div>
       <div className="col">
-        <Cards project={PROJECT}/>
+        <Cards project={PROJECT} toggleModal={toggleModal} projectSelect={projectSelect}/>
+        <MediaModal toggleModalOpen={toggleModalOpen} toggleModal={toggleModal}/>
       </div>
-      </container>
+      </div>
     </>
   );
 }
