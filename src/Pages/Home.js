@@ -6,14 +6,14 @@ import MediaModal from '../components/MediaModalComponent';
 function Home(props) {
 
 const [toggleModalOpen, setToggleModalOpen] = React.useState(false)
-const [selectedProject, setSelectedProject] = React.useState()
-function toggleModal(selection) {
+const [selectedProject, setSelectedProject] = React.useState("")
+function toggleModal() {
   setToggleModalOpen(prev => !prev)
-  setSelectedProject(prev => selection)
   // use the selectedProject state value in the Media Modal to identify the correct project to display 
 }
-function projectSelect(selection){
-  
+function projectSelect(selection) {
+  setToggleModalOpen(prev => !prev)
+  setSelectedProject(prev => selection)
 }
 
   return (
@@ -34,8 +34,8 @@ function projectSelect(selection){
         </h2>
       <div>
       <div className="col">
-        <Cards project={PROJECT} toggleModal={toggleModal} projectSelect={projectSelect}/>
-        <MediaModal toggleModalOpen={toggleModalOpen} toggleModal={toggleModal}/>
+        <Cards project={PROJECT} projectSelect={projectSelect}/>
+        <MediaModal project={PROJECT} toggleModalOpen={toggleModalOpen} selectedProject={selectedProject} toggleModal={toggleModal}/>
       </div>
       </div>
     </>

@@ -6,7 +6,7 @@ function Cards(props) {
         <Col key={item.id} sm={{size:4}}>
             <Card>
             {/* <a href={item.link}> */}
-                <CardImg onClick={() => {props.toggleModal(item.id)}} src={item.coverImg} alt={item.alt}></CardImg>
+                <CardImg onClick={() => {props.projectSelect(item.id)}} src={item.coverImg} alt={item.alt}></CardImg>
             {/* </a> */}
                 <CardText>
                     {item.title}
