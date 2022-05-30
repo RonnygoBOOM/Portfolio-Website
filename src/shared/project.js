@@ -16,6 +16,7 @@ export const PROJECT = [
         description: "",
         coverImg: "images/dnd.png",
         link: "https://youtu.be/yg5eJtQf_0c",
+        embed: "Coming soon",
         alt: "Video to show functionality of my D&D website project",
         website: true,
     },
@@ -44,6 +45,7 @@ export const PROJECT = [
         description: "",
         coverImg: "images/meme-generator.png",
         link: "https://youtu.be/38K8db9JjmA",
+        embed: "Coming soon",
         alt: "Video to show functionality of my meme generator website project",
         website: false, /*keep as video */
     },
@@ -53,6 +55,7 @@ export const PROJECT = [
         description: "",
         coverImg: "images/react-native-mobile-app.png",
         link: "https://youtu.be/A-d6ugHbLbk",
+        embed: "Coming soon",
         alt: "Video to show functionality of my Nucampsite mobile app project",
         website: false,
     },
