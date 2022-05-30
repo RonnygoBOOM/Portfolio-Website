@@ -5,6 +5,7 @@ export const PROJECT = [
         description: "As a creative portfolio project, I built a simple website for showing off digital art NFT projects. I did some experimentation with CSS here, and would like to refine it to include better content, best-practices with respect to code, and completed navigational pages.",
         coverImg: "images/cnft-top.png",
         link: "https://youtu.be/eM5Gqr_QZQk",
+        embed: <iframe width="100%" height="auto" src="https://www.youtube.com/embed/eM5Gqr_QZQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>,
         hoverText: "Click to watch a short video demonstrating the functionality of this website",
         alt: "Video to show functionality of my cnft website project",
         website: true,
@@ -23,7 +24,8 @@ export const PROJECT = [
         title: "Tenzies Game",
         description: "",
         coverImg: "images/tenzies.png",
-        link: "https://youtu.be/Tvqb91-Q7eA",
+        link: "https://main--cheery-boba-18f328.netlify.app/",
+        // "https://youtu.be/Tvqb91-Q7eA"
         alt: "Video to show functionality of my tenzies game project",
         website: true,
     },
