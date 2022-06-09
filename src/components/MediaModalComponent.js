@@ -13,8 +13,10 @@ function MediaModal(props) {
             {item.title}
           </ModalHeader>
           <ModalBody>
-          {item.embed ? item.embed : <iframe title={item.title} className="iframe-embedded-video" src={item.link}></iframe>}
+          {item.embed && item.embed}
+          {item.website && <iframe title={item.title} className="iframe-embedded-video" src={item.link}></iframe>}
           {item.embed && !item.websiteImage && <a href={item.link}>Watch on Youtube</a>}
+          {item.websiteImage && <img alt={item.alt} src={item.src} width="80%" height="80%"></img>}
           {item.website && <a href={item.link}>Go to Website</a>}
           </ModalBody>
           {/* if selectedProject.isWebsite ? <iframe></iframe> : selectedProject.embedlink */}

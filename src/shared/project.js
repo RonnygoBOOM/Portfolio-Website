@@ -66,7 +66,7 @@ export const PROJECT = [
         title: "Airbnb Landing Page",
         description: "",
         coverImg: "images/airbnb-clone.png",
-        embed: <img src="images/airbnb-clone.png" width="80%" height="80%"></img>,
+        src: "images/airbnb-clone.png",
         // link: "https://drive.google.com/file/d/1_P1E0ZWthQsYKmlDokDLXKVOQCpehDnl/view?usp=sharing",
         alt: "Image to show the display of my Airbnb landing page project",
         website: false,
