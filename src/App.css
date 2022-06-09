@@ -157,3 +157,11 @@ left: 0px !important;
 margin: 0 !important;
 } */
 
+.iframe-embedded-video {
+  width: 100%;
+  height: 60vh;
+}
+
+.modal-body {
+  text-align: center;
+}

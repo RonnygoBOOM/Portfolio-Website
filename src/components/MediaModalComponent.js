@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row, Modal, ModalHeader, ModalBody } from "reactstrap";
 
 function MediaModal(props) {
+ 
 
   const myModal = props.project.filter(itemFilter => props.selectedProject === itemFilter.id).map(item => {
       return(
@@ -12,10 +13,9 @@ function MediaModal(props) {
             {item.title}
           </ModalHeader>
           <ModalBody>
-          {item.embed ? item.embed : <iframe title={item.title} style={{width: '100%', height: '60vh'}}src={item.link}></iframe>}
-          {item.embed && <h1 style={{textAlign: "center"}}>Embedded Videos Coming Soon</h1>}
-          {item.embed && <h5>For now, click the link to watch a video of this project</h5>}
-          {item.embed && <a href={item.link}>Watch on Youtube.com</a>}
+          {item.embed ? item.embed : <iframe title={item.title} className="iframe-embedded-video" src={item.link}></iframe>}
+          {item.embed && !item.websiteImage && <a href={item.link}>Watch on Youtube</a>}
+          {item.website && <a href={item.link}>Go to Website</a>}
           </ModalBody>
           {/* if selectedProject.isWebsite ? <iframe></iframe> : selectedProject.embedlink */}
           {/*Eventually, I would like to use netlify to set up the ACTUAL websites for users to interact with via iframe modal */}
