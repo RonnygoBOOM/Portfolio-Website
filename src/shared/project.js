@@ -8,7 +8,7 @@ export const PROJECT = [
         //"https://youtu.be/eM5Gqr_QZQk",
         // embed: <iframe className="iframe-embedded-video" src="https://www.youtube.com/embed/eM5Gqr_QZQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>,
         // hoverText: "Click to watch a short video demonstrating the functionality of this website",
-        alt: "Link to show functionality of my cnft website project",
+        alt: "Image link to show functionality of my cnft website project",
         website: true,
     },
     {
@@ -29,7 +29,7 @@ export const PROJECT = [
         coverImg: "images/tenzies.png",
         link: "https://main--cheery-boba-18f328.netlify.app/",
         // "https://youtu.be/Tvqb91-Q7eA"
-        alt: "Link to show functionality of my tenzies game project",
+        alt: "Image to show functionality of my tenzies game project",
         website: true,
     },
     {
@@ -38,7 +38,7 @@ export const PROJECT = [
         description: "This was my first bootstrap portfolio website",
         coverImg: "images/drunken-dragon.png",
         link: "https://dndnftgame.com/",
-        alt: "iframe link to show functionality of my meme generator website project",
+        alt: "image of my DNDNFT website",
         website: true,
     },
     {
@@ -48,7 +48,7 @@ export const PROJECT = [
         coverImg: "images/meme-generator.png",
         link: "https://youtu.be/38K8db9JjmA",
         embed: <iframe className="iframe-embedded-video" src="https://www.youtube.com/embed/38K8db9JjmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>,
-        alt: "Video to show functionality of my meme generator website project",
+        alt: "Image of my meme generator website project",
         website: false, /*keep as video */
     },
     {
