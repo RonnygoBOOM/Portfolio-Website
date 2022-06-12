@@ -38,7 +38,7 @@ function Footer() {
             <p>
               Ron Scheibel- Full-Stack Web Developer Portfolio
             </p>
-            <p>Copyright 2022</p>
+            <p>&copy; 2022</p>
           </div>
       </div>
     </>
