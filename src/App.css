@@ -165,3 +165,10 @@ margin: 0 !important;
 .modal-body {
   text-align: center;
 }
+
+/*footer*/
+
+.site-footer {
+  align-self: center;
+  margin: 1em;
+}

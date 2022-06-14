@@ -4,42 +4,32 @@ function Footer() {
   return (
     <>
       <div className="container">
-          <div className="row footer">
-              <div className="col col-4">
-                <ul className="list-unstyled">
-                  Socials
-                  <li>
-                    <a href="https://www.youtube.com/channel/UCDpvI_BpoMILcRxXUXlbwvg">Youtube</a>
-                  </li>
-                  <li>
-                    <a href="https://www.twitter.com/RonScheibel_">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/ron-scheibel-21003822a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkP7c2PDfTh2%2BLicNzoE%2B3g%3D%3D">LinkedIn</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col col-4">
-                <ul className="list-unstyled">
-                  Links
-                  <li>
-                    <a href="/">Home</a>
-                  </li>
-                  <li>
-                    <a href="/about">About</a>
-                  </li>
-                  <li>
-                    <a href="/contact">Contact Me</a>
-                  </li>
-                </ul>
-              </div>
+        <div className="row footer">
+          <div className="col col-4 site-footer">
+            <a
+              className="btn btn-social-icon btn-linkedin"
+              href="http://linkedin.com/in/ron-scheibel-21003822a"
+            >
+              <i className="fa fa-linkedin" />
+            </a>{" "}
+            <a
+              className="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/ronscheibel_"
+            >
+              <i className="fa fa-twitter" />
+            </a>{" "}
+            <a
+              className="btn btn-social-icon btn-google"
+              href="https://www.youtube.com/channel/UCDpvI_BpoMILcRxXUXlbwvg"
+            >
+              <i className="fa fa-youtube" />
+            </a>
           </div>
-          <div className="footer-bottom">
-            <p>
-              Ron Scheibel- Full-Stack Web Developer Portfolio
-            </p>
-            <p>&copy; 2022</p>
-          </div>
+        </div>
+        <div className="footer-bottom">
+          <p>Ron Scheibel- Full-Stack Web Developer Portfolio</p>
+          <p>&copy; 2022</p>
+        </div>
       </div>
     </>
   );
