@@ -13,6 +13,13 @@
   font-size: 2rem;
 }
 
+/*footer*/
+
+.site-footer {
+  align-self: center;
+  margin: 1em;
+}
+
 .footer {
   justify-content: center;
   display: flex;
@@ -21,6 +28,10 @@
 }
 .footer-bottom {
 text-align: center;
+}
+.footer-box {
+padding: 1px;
+background: linear-gradient(#ffffff, rgb(171, 174, 248));
 
 }
 
@@ -164,11 +175,4 @@ margin: 0 !important;
 
 .modal-body {
   text-align: center;
-}
-
-/*footer*/
-
-.site-footer {
-  align-self: center;
-  margin: 1em;
 }

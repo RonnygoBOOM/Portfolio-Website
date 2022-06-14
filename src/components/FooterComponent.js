@@ -3,6 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
+    <div className="footer-box">
       <div className="container">
         <div className="row footer">
           <div className="col col-4 site-footer">
@@ -30,6 +31,7 @@ function Footer() {
           <p>Ron Scheibel- Full-Stack Web Developer Portfolio</p>
           <p>&copy; 2022</p>
         </div>
+      </div>
       </div>
     </>
   );
