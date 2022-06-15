@@ -1,9 +1,9 @@
 import React from "react";
 
-function Footer() {
+function Footer(props) {
   return (
     <>
-    <div className="footer-box">
+    <div className={props.page}>
       <div className="container">
         <div className="row footer">
           <div className="col col-4 site-footer">

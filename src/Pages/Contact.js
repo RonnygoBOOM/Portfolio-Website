@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <>
-            <container className="contact">
+            <div className="contact">
             <h1>Contact Me</h1>
             <p>
                 I live in Orlando, Florida, and am looking for local or remote career opportunities that will help foster my continued learning and growth.
@@ -13,7 +13,7 @@ function Contact() {
             <br/>
             <p>Email: scheibelr@gmail.com</p>
             <br/>
-            </container>
+            </div>
         </>
     )
 }

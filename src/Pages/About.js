@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
     return (
         <>
-            <container className="about">
+            <div className="about">
                 <h1>About</h1>
                 <p>
                     Thanks for taking the time to check out my portfolio! This is very much a work in progress, but I will keep improving and adding content week by week as I continue on my growth journey as a web developer.
@@ -21,7 +21,7 @@ function About() {
                 <p>
                     As a teacher and a scientist, I have a growth mindset, and a strong passion for learning. I am hyped to have found a career that allows me to challenge myself with difficult problems, collaborate with others, and continuously learn, grow, and adapt to a constantly-evolving environment!
                 </p>
-            </container>
+            </div>
         </>
     )
 }
