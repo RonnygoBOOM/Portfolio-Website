@@ -27,7 +27,7 @@ function projectSelect(selection) {
           ></img>
         </div>
         <h2 className="top-text">Ron Scheibel</h2>
-        <h2 className="bottom-text">Web Developer</h2>
+        {/* <h2 className="bottom-text">Web Developer</h2> */}
       </div>
       <h2>
         Experiments:

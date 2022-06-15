@@ -28,7 +28,7 @@ function Footer(props) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>Ron Scheibel- Full-Stack Web Developer Portfolio</p>
+          <p>Ron Scheibel<br></br>Full-Stack Web Developer Portfolio</p>
           <p>&copy; 2022</p>
         </div>
       </div>

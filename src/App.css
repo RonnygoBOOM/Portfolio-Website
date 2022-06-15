@@ -104,7 +104,7 @@ h2 {
   font-family: Varela Round, Courier;
 }
 
-.bottom-text {
+/* .bottom-text {
   display: flex;
   position: absolute;
   text-align: center;
@@ -114,7 +114,7 @@ h2 {
   background-color: rbg(0, 0, 0, .5);
   font-family: Varela Round, Courier;
   font-size: 4.3vw;
-}
+} */
 
 .card-row {
   justify-content: center;
@@ -177,3 +177,8 @@ padding: 0;
 .modal-body {
   text-align: center;
 }
+
+  .text-link {
+    text-decoration:none;
+    color: black;
+  }
