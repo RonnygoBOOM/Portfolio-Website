@@ -99,22 +99,36 @@ h2 {
   margin: 1vw 0 0 0;
   padding: 0;
   color: white;
-  font-size: 3.5vw;
+  font-size: 2.0vw;
   background-color: rbg(0, 0, 0, .5);
   font-family: Varela Round, Courier;
 }
 
-/* .bottom-text {
+.bottom-text {
   display: flex;
   position: absolute;
   text-align: center;
-  margin: 8vw 0 0 0;
-  padding: 0;
-  color: rgb(147, 195, 218);
+  margin: 9vw 0 0 0;
+  padding: 0 .3em 0 .3em;
+  background: linear-gradient(45deg,rgb(49, 148, 241), rgb(49, 148, 241), rgb(53, 41, 163), rgb(111, 55, 185), rgb(8, 121, 226), rgb(13, 207, 214), rgb(13, 207, 214));
   background-color: rbg(0, 0, 0, .5);
   font-family: Varela Round, Courier;
   font-size: 4.3vw;
-} */
+  border: none;
+  border-width: .2vw;
+  border-radius: 4em;
+  background-size: 300%;
+  animation: backgroundposition 8s ease-in-out infinite alternate;
+}
+
+@keyframes backgroundposition {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
 
 .card-row {
   justify-content: center;
