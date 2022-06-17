@@ -6,7 +6,7 @@ function Footer(props) {
     <div className={props.page}>
       <div className="container">
         <div className="row footer">
-          <div className="col col-4 site-footer">
+          <div className="col col-8 site-footer">
             <a
               className="btn btn-social-icon btn-linkedin"
               href="http://linkedin.com/in/ron-scheibel-21003822a"

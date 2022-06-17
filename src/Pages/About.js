@@ -6,6 +6,7 @@ function About() {
     <>
       <div className="about">
         <Parallax pages={2}>
+          <div className="col col-sm-8 offset-sm-2">
           <ParallaxLayer
             enabled={false}
             sticky={{ start: 0, end: 0.3 }}
@@ -58,6 +59,7 @@ function About() {
             my progress to help hold myself accountable for my own growth and
             learning.
           </p>
+          </div>
         </Parallax>
       </div>
     </>
