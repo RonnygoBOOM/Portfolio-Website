@@ -3,12 +3,12 @@ import { Card, CardText, CardImg, Row, Col } from 'reactstrap';
 function Cards(props) {
     const myCard = props.project.map(item => {
         return (
-        <Col key={item.id} sm={{size:4}}>
+        <Col key={item.id} xs={{size:4}}>
             <Card>
             {/* <a href={item.link}> */}
                 <CardImg onClick={() => {props.projectSelect(item.id)}} src={item.coverImg} alt={item.alt}></CardImg>
             {/* </a> */}
-                <CardText>
+                <CardText className="card-title">
                     {item.title}
                 </CardText>
             </Card>
