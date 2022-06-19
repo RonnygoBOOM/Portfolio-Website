@@ -9,7 +9,7 @@ function About() {
           <div className="col col-sm-8 offset-sm-2">
           <ParallaxLayer
             enabled={false}
-            sticky={{ start: 0, end: 0.3 }}
+            sticky={{ start: 0, end: 1 }}
             style={{ zIndex: "-1" }}
           >
             <h1>About</h1>
