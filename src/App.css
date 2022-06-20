@@ -42,9 +42,18 @@ code {
 .footer-bottom {
 text-align: center;
 }
+
+.footer-bottom p {
+  margin: 0;
+}
 .footer-box {
 padding: 1px;
 background: linear-gradient(#ffffff, rgb(171, 174, 248));
+}
+
+.footer-a {
+  margin:0;
+  padding:0;
 }
 
 h1 {
