@@ -26,6 +26,7 @@ function Footer(props) {
               <i className="fa fa-youtube" />
             </a>
           </div>
+          <a href="https://github.com/RonnygoBOOM">Check out my Github</a>
         </div>
         <div className="footer-bottom">
           <p>Ron Scheibel<br></br>Full-Stack Web Developer Portfolio</p>
