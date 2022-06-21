@@ -6,14 +6,21 @@ function About() {
     <>
       <div className="about">
         <Parallax pages={2}>
-          <div className="col col-sm-8 offset-sm-2">
-          <ParallaxLayer
-            enabled={false}
-            sticky={{ start: 0, end: 1 }}
-            style={{ zIndex: "-1" }}
-          >
-            <h1>About</h1>
+        <ParallaxLayer
+          enabled={false}
+          sticky={{ start: 0, end: 1 }}
+          style={{ zIndex: "-1" }}
+        >
+        <h1 className="about-title" style={{ zIndex: "1" }}>About</h1>
+        <img
+            className="about-image"
+            alt="front end dev desk with monitors"
+            src="images/front-end-displays.jpg"
+          ></img>
           </ParallaxLayer>
+          <ParallaxLayer className="about-text" offset={1} speed={1}>
+          <div className="col col-sm-8 offset-sm-2">
+          <h2>Thank You</h2>
           <p>
             Thanks for taking the time to check out my portfolio! This is very
             much a work in progress, but I will keep improving and adding
@@ -60,6 +67,7 @@ function About() {
             learning.
           </p>
           </div>
+          </ParallaxLayer>
         </Parallax>
       </div>
     </>

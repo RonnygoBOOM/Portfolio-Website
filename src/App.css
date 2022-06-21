@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 code {
@@ -77,12 +78,21 @@ h2 {
   margin: 0 3em 0 3em;
 }
 
-.about {
-
+.about-title {
+  position: absolute;
+  color: white;
 }
-.about p {
+
+.about-image {
+  min-width: 100%;
+  filter: brightness(30%);
+  min-height: 1vh;
+}
+
+.about-text {
   text-indent: 30pt;
   padding: .5em;
+  background-color: white;
 }
 
 .top-container {
@@ -97,7 +107,6 @@ h2 {
 .top-image {
   width: 100%;
   filter: brightness(30%);
-
 }
 
 .top-text {
