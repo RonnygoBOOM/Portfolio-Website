@@ -5,11 +5,11 @@ function About() {
   return (
     <>
       <div className="about">
-        <Parallax pages={2}>
+        <Parallax pages={3.7}>
         <ParallaxLayer
           enabled={false}
-          sticky={{ start: 0, end: 1 }}
-          style={{ zIndex: "-1" }}
+          sticky={{ start: 0, end: 1, speed: 5}}
+          style={{ zIndex: "-2" }}
         >
         <h1 className="about-title" style={{ zIndex: "1" }}>About</h1>
         <img
@@ -19,8 +19,8 @@ function About() {
           ></img>
           </ParallaxLayer>
           <ParallaxLayer className="about-text" offset={1} speed={1}>
-          <div className="col col-sm-8 offset-sm-2">
-          <h2>Thank You</h2>
+          <div className="col col-sm-8 offset-sm-2" style={{marginTop: '80vh'}}>
+          <h2>Thank You!</h2>
           <p>
             Thanks for taking the time to check out my portfolio! This is very
             much a work in progress, but I will keep improving and adding
@@ -40,7 +40,22 @@ function About() {
             </a>{" "}
             page to send me a message.
           </p>
-          <br />
+          </div>
+          </ParallaxLayer>
+          <ParallaxLayer
+          enabled={false}
+          speed={10}
+          sticky={{ start: 1.6, end: 2.5}}
+          style={{ zIndex: "-2" }}
+        >
+          <img
+            className="about-image botany"
+            alt="front end dev desk with monitors"
+            src="images/botany.jpg"
+          ></img>
+          </ParallaxLayer>
+          <ParallaxLayer className="about-text-journey" offset={2.9} speed={1}>
+          <div className="col col-sm-8 offset-sm-2">
           <h2>My Journey as a Developer</h2>
           <p>
             I started dabbling into code a few years ago when I wanted to create
@@ -70,6 +85,7 @@ function About() {
           </ParallaxLayer>
         </Parallax>
       </div>
+      <div className="footer-spacer"></div>
     </>
   );
 }
