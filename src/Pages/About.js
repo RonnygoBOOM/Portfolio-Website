@@ -1,6 +1,5 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import Footer from '../components/FooterComponent';
 
 function About() {
   return (
