@@ -25,15 +25,18 @@ function Footer(props) {
                 >
                   <i className="fa fa-youtube" />
                 </a>
+                <a
+                  className="btn btn-social-icon btn-github"
+                  href="https://github.com/RonnygoBOOM"
+                >
+                  <i className="fa fa-github" />
+                </a>
               </div>
             </div>
             <div className="footer-bottom">
               <p>
                 Ron Scheibel<br></br>Full-Stack Web Developer Portfolio
               </p>
-              <a className="footer-a" href="https://github.com/RonnygoBOOM">
-                Check out my Github
-              </a>
               <p>&copy; 2022</p>
             </div>
           </div>

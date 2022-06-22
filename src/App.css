@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  overflow-y:var();
 }
 
 code {
@@ -31,7 +32,6 @@ code {
 .site-footer {
   align-self: center;
   margin: 1em;
-  z-index: -1;
 }
 .footer {
   justify-content: center;
@@ -51,14 +51,9 @@ padding: 1px;
 background: linear-gradient(#ffffff, rgb(171, 174, 248));
 }
 
-.footer-a {
-  margin:0;
-  padding:0;
-}
-
 .footer-spacer {
   background-color: transparent;
-  height: 75vh;
+  height: 100vh;
 }
 
 h1 {
@@ -81,7 +76,7 @@ h2 {
 .contact p {
   margin: 0 3em 0 3em;
 }
-.body .about {
+body .about {
   overflow: hidden;
 }
 .about-title {

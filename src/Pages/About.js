@@ -1,11 +1,12 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Footer from '../components/FooterComponent';
 
 function About() {
   return (
     <>
       <div className="about">
-        <Parallax pages={3.7}>
+        <Parallax pages={3.6}>
         <ParallaxLayer
           enabled={false}
           sticky={{ start: 0, end: 1, speed: 5}}
