@@ -115,6 +115,14 @@ body .about {
   margin-bottom:20vh
 }
 
+/*test*/
+.test-text {
+  /*media querry 575 px*/
+  padding: 20vh 15px 20vh 15px;
+  background-color: white;
+  font-size: 2vw;
+}
+
 .top-container {
   background-color: rgb(1, 1, 26);
   display: flex;
@@ -189,11 +197,17 @@ body .about {
   .card-title {
     font-size: 2.5vw !important;
   }
+  .test-text {
+    font-size: 3vw;
+  }
 }
 
 @media only screen and (min-width: 1175px) {
   .card-row {
     margin: 0 15vw 0 15vw !important;
+  }
+  .test-text {
+    font-size: 1.5vw;
   }
 }
 

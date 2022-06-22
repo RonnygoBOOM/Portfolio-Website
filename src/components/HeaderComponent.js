@@ -27,6 +27,9 @@ function Header() {
                     <NavItem>
                         <NavLink href="/contact">Contact</NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink href="/test">Test</NavLink>
+                    </NavItem>
                     {/* <UncontrolledDropdown>
                         <DropdownToggle nav caret>
                             Projects
