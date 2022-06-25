@@ -76,9 +76,7 @@ h2 {
 .contact p {
   margin: 0 3em 0 3em;
 }
-body .about {
-  overflow: hidden;
-}
+
 .about-title {
   position: absolute;
   color: rgb(255, 255, 255);
@@ -94,31 +92,10 @@ body .about {
   min-height: 100%;
 }
 
-.about-text {
-  text-indent: 30pt;
-  padding: .5em;
-  background-color: white;
-  min-height: 210vh;
-  display:flex;
-  align-self: center;
-}
-
-.about-text-journey {
-  text-indent: 30pt;
-  padding: .5em;
-  background-color: rgb(25, 26, 36);
-  color: white;
-  min-height: 130vh;
-  vertical-align: middle;
-  align-self:center;
-  padding-top: 30vh;
-  margin-bottom:20vh
-}
-
 /*test*/
-.test-text {
+.about-text {
   /*media querry 575 px*/
-  padding: 20vh 15px 20vh 15px;
+  padding: 20vh 15px 25vh 15px;
   background-color: white;
   font-size: 2vw;
 }
@@ -197,7 +174,7 @@ body .about {
   .card-title {
     font-size: 2.5vw !important;
   }
-  .test-text {
+  .about-text {
     font-size: 3vw;
   }
 }
@@ -206,7 +183,7 @@ body .about {
   .card-row {
     margin: 0 15vw 0 15vw !important;
   }
-  .test-text {
+  .about-text {
     font-size: 1.5vw;
   }
 }

@@ -4,7 +4,7 @@ import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 function About() {
   return (
     <>
-    <div className="test">
+    <div className="about">
       <Parallax pages={3.5}>
       <ParallaxLayer
         enabled={false}
@@ -20,7 +20,7 @@ function About() {
         ></img>
         </ParallaxLayer>
         <ParallaxLayer factor={1} className="" offset={1} speed={0}>
-          <div className="test-text">
+          <div className="about-text">
         <div className="col col-sm-8 offset-sm-2">
         <h2>Thank You!</h2>
         <p>
@@ -52,14 +52,14 @@ function About() {
         style={{ zIndex: "-2" }}
       >
         <img
-          style={{width: '100%'}}
+          style={{width: '100%', minHeight: '100vh'}}
           className=""
           alt="front end dev desk with monitors"
           src="images/botany.jpg"
         ></img>
         </ParallaxLayer>
         <ParallaxLayer className="" offset={2.3} factor={1} speed={0}>
-       <div style={{backgroundColor: 'darkGray'}} className="test-text">
+       <div style={{backgroundColor: 'darkGray'}} className="about-text">
         <div className="col col-sm-8 offset-sm-2">
         <h2>My Journey as a Developer</h2>
         <p>
