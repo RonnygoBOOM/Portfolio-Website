@@ -35,7 +35,7 @@ function projectSelect(selection) {
       <div>
       <div className="col">
         <Cards project={PROJECT} projectSelect={projectSelect}/>
-        <MediaModal project={PROJECT} toggleModalOpen={toggleModalOpen} selectedProject={selectedProject} toggleModal={toggleModal}/>
+        <MediaModal toggleModalOpen={toggleModalOpen} selectedProject={selectedProject} toggleModal={toggleModal}/>
       </div>
       </div>
     </>

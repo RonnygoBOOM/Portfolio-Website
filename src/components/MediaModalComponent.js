@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Row, Modal, ModalHeader, ModalBody } from "reactstrap";
+import {PROJECT} from '../shared/project';
 
 function MediaModal(props) {
  
 
-  const myModal = props.project.filter(itemFilter => props.selectedProject === itemFilter.id).map(item => {
+  const myModal = PROJECT.filter(itemFilter => props.selectedProject === itemFilter.id).map(item => {
       return(
       <Col key={item.id}>
         <div className="custom-modal-div">
