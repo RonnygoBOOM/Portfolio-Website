@@ -12,6 +12,7 @@ function Contact() {
             <p>I look forward to hearing from you!</p>
             <br/>
             <p>Email: scheibelr@gmail.com</p>
+            <a href="mailto:scheibelr@gmail.com">Send Email</a>
             <br/>
             </div>
         </>
