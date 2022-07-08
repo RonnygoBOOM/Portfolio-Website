@@ -19,13 +19,16 @@ function Header() {
             <Collapse isOpen={navCollapse} navbar>
                 <Nav className="ml-auto" navbar>
                     <NavItem>
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href="/#">Home</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="/#experiments">Experiments</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/#about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/contact">Contact</NavLink>
+                        <NavLink href="/#contact">Contact</NavLink>
                     </NavItem>
                     {/* <UncontrolledDropdown>
                         <DropdownToggle nav caret>

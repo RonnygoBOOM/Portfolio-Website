@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
-function About() {
+function OldAbout() {
   return (
     <>
     <div className="about">
@@ -96,4 +96,4 @@ function About() {
   );
 }
 
-export default About;
+export default OldAbout;
