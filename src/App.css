@@ -77,15 +77,7 @@ h2 {
   margin: 0 3em 0 3em;
 }
 
-.about-title {
-  position: absolute;
-  color: rgb(255, 255, 255);
-}
 
-.about-image {
-  min-width: 100%;
-  min-height: 100%;
-}
 
 .botany {
   min-width: 100%;
@@ -93,12 +85,7 @@ h2 {
 }
 
 /*test*/
-.about-text {
-  /*media querry 575 px*/
-  padding: 20vh 15px 25vh 15px;
-  background-color: white;
-  font-size: 2vw;
-}
+
 
 .top-container {
   background-color: rgb(1, 1, 26);
@@ -188,12 +175,7 @@ h2 {
   margin: 0 0 0 0;
   font-size: 6.3vw;
   }
-  .card-title {
-    font-size: 2.5vw !important;
-  }
-  .about-text {
-    font-size: 3vw;
-  }
+
 }
 
 @media only screen and (min-width: 1175px) {
@@ -259,14 +241,82 @@ padding: 0;
   color: black;
 }
 
+.about-container {
+margin: 3em;
+padding: 1em;
+border-radius: 4em;
+border: solid;
+border-width: 1em;
+border-color: rgb(49, 148, 241);
+}
+
+.about-card {
+  margin: .1em;
+  border-radius: 3.2em !important;
+  padding: 0;
+}
 .type-writer {
+  margin-top: 6em;
   font-size: 1.3em;
   text-align: center;
+  z-index: 2;
 }
 .type-writer::after {
   content: '|';
   animation: rightBorder 1s ease-in-out infinite;
+  z-index: 2;
 }
 .Typewriter {
   font-size: 1.3em;
+  z-index: 2;
 }  
+.laptop-div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.laptop {
+  display: flex;
+  margin-top: 18.9em;
+  padding: 0;
+  align-self: center;
+  position: absolute;
+  text-align: center;
+}
+
+.about-text {
+  padding: 8em 12vw 5em 12vw;
+  background-color: white;
+  font-size: 1.3em;
+}
+
+.about-title {
+  margin: 1em;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 575px) {
+
+  .type-writer {
+    margin-top: 5em;
+    font-size: .9em;
+  }
+
+  .laptop {
+    margin-top: 10.9em;
+    width: 12em;
+  }
+  
+  .about-text {
+    margin-top: 1em;
+    padding: 5em 3em 5em 3em;
+    background-color: white;
+    font-size: .9em;
+  }
+  
+  .about-title {
+    margin: 1em;
+    font-size: 1.5em;
+  }
+
+}
