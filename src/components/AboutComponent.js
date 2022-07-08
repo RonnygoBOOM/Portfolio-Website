@@ -1,10 +1,15 @@
 import React from 'react';
 import {Card, CardTitle, CardText, Container} from 'reactstrap';
-
+import TypeWriter from './TypeWriterComponent';
 function About() {
+    const texts = ['Hiker', 'Dad', 'Programmer', 'Kayaker', 'Dungeon Master', 'Biologist', 'Woodworker']
+    const speed = 50
+    const endSpeed = 2000
+    //add iskak's code-typing script
     return (
         <>
         <Container>
+        <TypeWriter texts={texts} speed={speed} endSpeed={endSpeed} className="type-writer" />
 <Card className="about-card">
 <a name="about" className="a-invisible" href="/#about">
 <CardTitle>

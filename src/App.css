@@ -254,7 +254,19 @@ padding: 0;
   text-align: center;
 }
 
-  .text-link {
-    text-decoration:none;
-    color: black;
-  }
+.text-link {
+  text-decoration:none;
+  color: black;
+}
+
+.type-writer {
+  font-size: 1.3em;
+  text-align: center;
+}
+.type-writer::after {
+  content: '|';
+  animation: rightBorder 1s ease-in-out infinite;
+}
+.Typewriter {
+  font-size: 1.3em;
+}  
