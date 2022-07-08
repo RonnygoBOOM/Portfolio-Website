@@ -252,7 +252,7 @@ border-color: rgb(49, 148, 241);
 
 .about-card {
   margin: .1em;
-  border-radius: 3.2em !important;
+  border-radius: 3.2em;
   padding: 0;
 }
 .type-writer {
@@ -295,8 +295,39 @@ border-color: rgb(49, 148, 241);
   font-size: 2em;
 }
 
-@media only screen and (max-width: 575px) {
+.contact-container {
+  margin: 3em;
+  padding: 1em;
+  border-radius: 4em;
+  border: solid;
+  border-width: 1em;
+  border-color:rgb(13, 207, 214);
+  }
+  
+.contact-card {
+  margin: .1em;
+  border-radius: 3.2em;
+  padding: 0;
+}
 
+.contact-text {
+  padding: .5em 12vw .5em 12vw;
+  background-color: white;
+  font-size: 1.3em;
+}
+
+.contact-title {
+  margin: 1em;
+  font-size: 2em;
+}
+
+@media only screen and (max-width: 575px) {
+  .surround-div {
+    padding: 0 .3em 0 .3em;
+  }
+  .contact-container {
+    margin: 0 1em 0 1em;
+  }
   .type-writer {
     margin-top: 5em;
     font-size: .9em;
@@ -306,15 +337,26 @@ border-color: rgb(49, 148, 241);
     margin-top: 10.9em;
     width: 12em;
   }
-  
+
   .about-text {
     margin-top: 1em;
-    padding: 5em 3em 5em 3em;
+    padding: 5em 1em 5em 1em;
     background-color: white;
     font-size: .9em;
   }
   
   .about-title {
+    margin: 1em;
+    font-size: 1.5em;
+  }
+  .contact-text {
+    margin-top: 1em;
+    padding: 0em 1em 0em 1em;
+    background-color: white;
+    font-size: .9em;
+  }
+  
+  .contact-title {
     margin: 1em;
     font-size: 1.5em;
   }

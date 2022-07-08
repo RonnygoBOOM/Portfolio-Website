@@ -7,6 +7,7 @@ function About() {
     const endSpeed = 2000
     return (
         <>
+        <div className="surround-div">
         <Container className="about-container">
         <Card className="about-card">
         <CardTitle className="about-title">
@@ -27,6 +28,7 @@ About
 </CardText>
 </Card>
 </Container>
+</div>
 </>
     );
 }
