@@ -27,10 +27,12 @@ function projectSelect(selection) {
           ></img>
         </div>
         <h2 className="top-text">Ron Scheibel</h2>
-        <h2 className="bottom-text">Developer</h2>
+        
+        <h2 className="bottom-text"><a className="a-invisible" href="#experiments" alt="navigate to experiments">Developer</a></h2>
+        
       </div>
       <h2>
-        Experiments:
+      <a className="a-invisible" name="experiments" href="#experiments">Experiments:</a>
         </h2>
       <div>
       <div className="col">

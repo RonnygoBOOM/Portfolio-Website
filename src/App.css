@@ -143,8 +143,25 @@ h2 {
   border-radius: 4em;
   background-size: 300%;
   animation: backgroundposition 8s ease-in-out infinite alternate;
+  text-decoration: none;
 }
 
+.a-invisible:link {
+  text-decoration: none;
+  color:rgb(1, 1, 26)
+}
+.a-invisible:visited {
+  text-decoration: none;
+  color:rgb(1, 1, 26)
+}
+.a-invisible:color {
+  text-decoration: none;
+  color:rgb(1, 1, 26)
+}
+.a-invisible:active {
+  text-decoration: none;
+  color:rgb(1, 1, 26)
+}
 @keyframes backgroundposition {
   from {
     background-position: right;

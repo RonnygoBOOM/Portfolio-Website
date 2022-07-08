@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {Card, CardTitle, CardText} from 'reactstrap';
 import Header from './HeaderComponent';
 import Home from '../Pages/Home';
 import About from '../Pages/About';
@@ -20,6 +21,17 @@ function Main() {
         <Route path="/contact" element={<Contact />} />
     </Routes>
 </BrowserRouter>
+<Card className="about-card">
+<CardTitle>
+About
+</CardTitle>
+<CardText>
+          Thanks for taking the time to check out my portfolio! This is very
+          much a work in progress, but I will keep improving and adding
+          content week by week as I continue on my growth journey as a web
+          developer.
+</CardText>
+</Card>
 <Footer />
 </>
     );
