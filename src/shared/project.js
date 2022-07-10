@@ -3,7 +3,7 @@ export const PROJECT = [
     id: 1,
     title: "cnftTop Website",
     description:
-      "As a creative portfolio project, I started building this simple website for showing off digital art projects in a way that hadn't been done before: with integrity metrics. I did some experimentation with CSS here, and would like to refine it to include graphs to visually demonstrate a project's integrity through metrics like team experience and accountability, roadmap followthrough, popularity on different platforms, and rating their art, marketing, community, etc.",
+      "As a creative portfolio project, I started building this simple website for showing off digital art projects in a way that hadn't been done before: with integrity metrics. I did some experimentation with CSS here, and would like to refine it to include graphs to visually demonstrate a project's integrity through metrics like team experience and accountability, roadmap followthrough, popularity on different platforms, and rating their art, marketing, community, etc. This is not yet fully responsive on mobile.",
     coverImg: "images/cnft-top.png",
     link: "https://main--imaginative-pothos-1591fb.netlify.app/",
     //"https://youtu.be/eM5Gqr_QZQk",
