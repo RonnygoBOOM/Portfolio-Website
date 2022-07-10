@@ -46,15 +46,7 @@ text-align: center;
 .footer-bottom p {
   margin: 0;
 }
-.footer-box {
-padding: 1px;
-background: linear-gradient(#ffffff, rgb(171, 174, 248));
-}
 
-.footer-spacer {
-  background-color: transparent;
-  height: 100vh;
-}
 
 h1 {
   position: relative; 
@@ -236,6 +228,14 @@ padding: 0;
   text-align: center;
 }
 
+.modal-text {
+  margin: 1em;
+  display: flex;
+  justify-self: left;
+  text-align: left;
+  text-indent: 30px;
+}
+
 .text-link {
   text-decoration:none;
   color: black;
@@ -361,4 +361,12 @@ border-color: rgb(49, 148, 241);
     font-size: 1.5em;
   }
 
+}
+
+/* Languages Images */
+
+.python-logo {
+  width: 20vw;
+  margin-left: 20%;
+  z-index: 3;
 }
