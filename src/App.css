@@ -7,6 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* min-height: 100vh; */
   overflow-y:var();
+  background-color: linear-gradient(black, white);
+  background: linear-gradient(70deg,rgb(2, 25, 46), rgb(29, 42, 54),rgb(2, 25, 46));
 }
 
 code {
@@ -28,7 +30,10 @@ code {
 }
 
 /*footer*/
-
+.footer-background {
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+}
 .site-footer {
   align-self: center;
   margin: 1em;
@@ -127,20 +132,21 @@ h2 {
 
 .a-invisible:link {
   text-decoration: none;
-  color:rgb(1, 1, 26)
+  color: white;
 }
 .a-invisible:visited {
   text-decoration: none;
-  color:rgb(1, 1, 26)
+  color: white;
 }
 .a-invisible:color {
   text-decoration: none;
-  color:rgb(1, 1, 26)
+  color: white;
 }
 .a-invisible:active {
   text-decoration: none;
-  color:rgb(1, 1, 26)
+  color: white;
 }
+
 @keyframes backgroundposition {
   from {
     background-position: right;
@@ -153,11 +159,13 @@ h2 {
 .card-row {
   justify-content: center;
   margin: 0 4vw 0 4vw !important;
+
 }
 
 @media only screen and (max-width: 575px) {
   .card-row {
     margin: 0 2em 0 2em !important;
+    
   }
   .bottom-text {
     margin: 16vw 0 0 0;
@@ -186,6 +194,8 @@ h2 {
   border: none !important;
   overflow: hidden !important;
   margin-bottom: 3em;
+  background: transparent !important;
+  color: white;
 }
 
 .card-img {
@@ -196,6 +206,7 @@ margin: 0em 1em 0em 0 !important;
 border: solid;
 border-width: 2px;
 border-color: black;
+
 }
 
 .card-img:hover {
@@ -208,6 +219,8 @@ align-items: center;
 justify-content: center;
 text-align: center;
 margin: 0;
+background: transparent !important;
+
 }
 
 .card-text p {

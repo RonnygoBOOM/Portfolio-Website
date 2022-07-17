@@ -3,7 +3,7 @@ import React from "react";
 function Footer(props) {
   return (
     <>
-        <div className={props.page}>
+        <div className="footer-background">
           <div className="container">
             <div className="row footer">
               <div className="col col-8 site-footer">
