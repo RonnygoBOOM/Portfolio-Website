@@ -11,8 +11,8 @@ function Contact() {
               <CardTitle className="contact-title">Contact Me</CardTitle>
             </a>
             <CardText className="contact-text">
-              I live in Orlando, Florida, and am looking for local or remote
-              career opportunities. I am also willing to relocate to Huntsville AL.
+              I live in Orlando, FL, and am looking for local or remote
+              career opportunities. I am also willing to relocate to Huntsville, AL.
             </CardText>
             <CardText className="contact-text">
               I look forward to hearing from you!
