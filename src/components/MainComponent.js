@@ -4,6 +4,7 @@ import Home from "../Pages/Home";
 import Contact from "./ContactComponent";
 import Footer from "./FooterComponent";
 import About from "./AboutComponent";
+import Experiments from "./ExperimentsComponent";
 // import Languages from "./LanguagesComponent";
 
 function Main() {
@@ -11,6 +12,7 @@ function Main() {
     <>
       <Header />
       <Home />
+      <Experiments />
       {/* <Languages /> */}
       <About />
       <Contact />
