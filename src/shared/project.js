@@ -45,7 +45,7 @@ export const PROJECT = [
   },
   {
     id: 4,
-    title: "1st Bootstrap Site",
+    title: "Bootstrap Site",
     description: "This was my first bootstrap portfolio website that I made as a fan site for a CNFT project I was interested in back in late 2021. It was a fun skills-practice project at the time, but there are a million and one things I would improve if I were to revisit and update this.",
     coverImg: "images/drunken-dragon.png",
     link: "https://dndnftgame.com/",

@@ -314,6 +314,17 @@ border-color: rgb(49, 148, 241);
   font-size: 2em;
 }
 
+.coding-skill-image {
+  height: 3vw;
+  
+}
+.about-card-images {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 .contact-container {
   margin: 3em;
   padding: 1em;

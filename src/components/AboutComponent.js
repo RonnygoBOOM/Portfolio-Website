@@ -33,6 +33,25 @@ About
 <CardText className="about-text about-text-bottom">
     Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy in me. 
 </CardText>
+<div className="about-card-images">
+    <img src="images/html-logo.png" alt='HTML logo'className="coding-skill-image"></img>
+    <img src="images/css3-logo.png" alt='CSS3 logo'className="coding-skill-image"></img>
+    <img src="images/yarn-logo.png" alt='yarn logo'className="coding-skill-image"></img>
+    <img src="images/c-logo.png" alt='C logo'className="coding-skill-image"></img>
+    <img src="images/express-logo.png" alt='express logo'className="coding-skill-image"></img>
+    <img src="images/git-logo-only.png" alt='git logo'className="coding-skill-image"></img>
+    <img src="images/javascript-logo.png" alt='javascript logo'className="coding-skill-image"></img>
+    <img src="images/json-logo.png" alt='json logo'className="coding-skill-image"></img>
+    <img src="images/node-logo.png" alt='node logo'className="coding-skill-image"></img>
+    <img src="images/mongo-db-logo.png" alt='mongoDB logo'className="coding-skill-image"></img>
+    <img src="images/npm-logo.png" alt='npm logo'className="coding-skill-image"></img>
+    <img src="images/python-logo.png" alt='python logo'className="coding-skill-image"></img>
+    <img src="images/react-logo.png" alt='react logo'className="coding-skill-image"></img>
+    <img src="images/react-native-logo.png" alt='react-native logo'className="coding-skill-image"></img>
+    <img src="images/redux-logo.png" alt='redux logo'className="coding-skill-image"></img>
+    <img src="images/rest-logo.png" alt='rest logo'className="coding-skill-image"></img>
+    
+</div>
 <CardText className="about-text about-text-bottom">
     When I'm not coding, I spend every waking moment that I can with my wife and two young boys. When I have time and availability solo, or with my family, you might find me hiking, teaching, swimming, kayaking, exploring Disney, woodworking, playing ultimate, cooking, observing wildlife, keeping up with new research, or playing Dungeons and Dragons. 
 </CardText>
