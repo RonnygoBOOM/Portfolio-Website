@@ -15,7 +15,7 @@ function Home() {
         </div>
         <h2 className="top-text">Ron Scheibel</h2>
         
-        <h2 className="bottom-text"><a className="a-invisible" href="#experiments" alt="navigate to experiments">Developer</a></h2>
+        <h2 className="bottom-text"><a className="a-invisible" href="#about" alt="navigate to experiments">Developer</a></h2>
       </div>
     </>
   );

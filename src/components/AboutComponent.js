@@ -13,16 +13,15 @@ function About() {
         <div className="surround-div">
         <Container className="about-container">
         <Card className="about-card">
+        <a name="about" className="a-invisible" href="/#about">
         <CardTitle className="about-title">
 About
 </CardTitle>
+</a>
         <div className="laptop-div">
         <img alt="laptop" src="images/laptop.png" className="laptop"></img>
         </div>
         <TypeWriter texts={texts} speed={speed} endSpeed={endSpeed} className="type-writer" />
-
-<a name="about" className="a-invisible" href="/#about">
-</a>
 <CardText className="about-text">
           Life-learners wear many hats, and I am one who loves to grow new, diverse skills. I have found my passion in programming. The problem-solving, critical-thinking, and creativity required as a programmer keeps me engaged, and I love to develop professionally, collaboratively, and as a hobby.
 </CardText>

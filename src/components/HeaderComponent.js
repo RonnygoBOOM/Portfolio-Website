@@ -22,10 +22,10 @@ function Header() {
                         <NavLink href="/#">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#experiments">Experiments</NavLink>
+                        <NavLink href="/#about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/#about">About</NavLink>
+                        <NavLink href="/#experiments">Experiments</NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href="/#contact">Contact</NavLink>

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./HeaderComponent";
-import Home from "../Pages/Home";
+import Home from "./HomeComponent";
 import Contact from "./ContactComponent";
 import Footer from "./FooterComponent";
 import About from "./AboutComponent";
@@ -12,9 +12,9 @@ function Main() {
     <>
       <Header />
       <Home />
-      <Experiments />
       {/* <Languages /> */}
       <About />
+      <Experiments />
       <Contact />
       <Footer />
     </>
