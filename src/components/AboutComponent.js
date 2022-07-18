@@ -31,6 +31,9 @@ About
 
 </CardImg> */}
 <CardText className="about-text about-text-bottom">
+    Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy in me. 
+</CardText>
+<CardText className="about-text about-text-bottom">
     When I'm not coding, I spend every waking moment that I can with my wife and two young boys. When I have time and availability solo, or with my family, you might find me hiking, teaching, swimming, kayaking, exploring Disney, woodworking, playing ultimate, cooking, observing wildlife, keeping up with new research, or playing Dungeons and Dragons. 
 </CardText>
 </Card>
