@@ -17,13 +17,9 @@ function Contact() {
             <CardText className="contact-text">
               I look forward to hearing from you!
             </CardText>
-            <CardText className="contact-text">
-              Email: scheibelr@gmail.com
-            </CardText>
             <a href="mailto:scheibelr@gmail.com">
               <CardText className="contact-text">
-                Copy Email Address
-                <i className="fa fa-copy" />
+              scheibelr@gmail.com
               </CardText>
             </a>
           </Card>

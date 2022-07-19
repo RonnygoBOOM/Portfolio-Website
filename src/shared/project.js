@@ -1,5 +1,15 @@
 export const PROJECT = [
   {
+    id: 0,
+    title: "The Deadly Sins Website",
+    description:
+      "As a freelance project, I was commissioned to build a simple, responsive website to make it easier to identify trait roles and link the appropriate items on jpg.store with the filtered traits.",
+    coverImg: "images/tds-website.png",
+    link: "https://flourishing-cajeta-80dbe0.netlify.app/",
+    alt: "Image link to show The Deadly Sins website",
+    website: true,
+  },
+  {
     id: 1,
     title: "cnftTop Website",
     description:
