@@ -30,7 +30,7 @@ About
 
 </CardImg> */}
 <CardText className="about-text about-text-bottom">
-    Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy in me. 
+    Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy. 
 </CardText>
 <div className="about-card-images">
     <img src="images/html-logo.png" alt='HTML logo'className="coding-skill-image"></img>
@@ -65,7 +65,6 @@ About
     <img src="images/react-native-logo.png" alt='react-native logo'className="coding-skill-image"></img>
     <img src="images/redux-logo.png" alt='redux logo'className="coding-skill-image"></img>
     <img src="images/rest-logo.png" alt='rest logo'className="coding-skill-image"></img>
-    
 </div>
 <CardText className="about-text about-text-bottom">
     When I'm not coding, I spend every waking moment that I can with my wife and two young boys. When I have time and availability solo, or with my family, you might find me hiking, teaching, swimming, kayaking, exploring Disney, woodworking, playing ultimate, cooking, observing wildlife, keeping up with new research, or playing Dungeons and Dragons. 

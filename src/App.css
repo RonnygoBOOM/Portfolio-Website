@@ -130,6 +130,15 @@ h2 {
   text-decoration: none;
 }
 
+@keyframes backgroundposition {
+  from {
+    background-position: right;
+  }
+  to {
+    background-position: left;
+  }
+}
+
 .a-invisible:link {
   text-decoration: none;
   color: white;
@@ -145,15 +154,6 @@ h2 {
 .a-invisible:active {
   text-decoration: none;
   color: white;
-}
-
-@keyframes backgroundposition {
-  from {
-    background-position: right;
-  }
-  to {
-    background-position: left;
-  }
 }
 
 .card-row {
