@@ -26,9 +26,6 @@ About
           Life-learners wear many hats, and I am one who loves to grow new, diverse skills. I have found my passion in programming. The problem-solving, critical-thinking, and creativity required as a programmer keeps me engaged, and I love to develop professionally, collaboratively, and as a hobby.
 </CardText>
 <RotateImages images={images} imgInfo={imgInfo} anime={'fade'}/>
-{/* <CardImg>
-
-</CardImg> */}
 <CardText className="about-text about-text-bottom">
     Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy. 
 </CardText>

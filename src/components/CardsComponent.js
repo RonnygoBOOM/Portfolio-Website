@@ -5,9 +5,7 @@ function Cards(props) {
         return (
         <Col key={item.id} xs={{size:4}}>
             <Card>
-            {/* <a href={item.link}> */}
                 <CardImg onClick={() => {props.projectSelect(item.id)}} src={item.coverImg} alt={item.alt}></CardImg>
-            {/* </a> */}
                 <CardText className="card-title">
                     {item.title}
                 </CardText>
