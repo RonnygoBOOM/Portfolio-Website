@@ -6,8 +6,8 @@ function About() {
     const texts = ['Hiker', 'Dad', 'Programmer', 'Kayaker', 'Dungeon Master', 'Biologist', 'Woodworker', 'Cyclist']
     const speed = 50
     const endSpeed = 2000
-    const images =[`images/Simba.jpg`, `images/backflip.png`, `images/family.jpg`, `images/rainbow.png`, `images/woodworking.jpg`, `images/laptop-pool.jpg`]
-    const imgInfo =  [`Winter Garden, FL`, 'Thousand Islands, Canada', `Windermere, FL`, `West Forks, ME`,'Orlando, FL', `Huntsville, AL`]
+    const images =[`images/Simba.jpg`, `images/family-couch.jpg`,`images/laptop-pool.jpg`, `images/kayaking.JPG`,`images/luke.JPG`,`images/chickens.JPG`,`images/book.JPG`, `images/sabre.JPG`,`images/coop.JPG`, `images/minecon.JPG`, `images/rainbow.png`, `images/woodworking.jpg`, `images/jack-helmet.jpg`, `images/wedding.jpg`]
+    const imgInfo =  [`Winter Garden, FL`, 'Windermere, FL', `Huntsville, AL`,`Crystal River, FL`, `Windermere, FL`, `Winter Garden, FL`, `Huntsville, AL`, `Apopka, FL`, `Winter Garden, FL`, `Anniston, CA`, `Windermere, FL`, `West Forks, ME`, `Orlando, FL`,`Homewood, AL`]
     return (
         <>
         <div className="surround-div">
