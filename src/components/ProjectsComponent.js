@@ -1,9 +1,9 @@
 import React from 'react';
 import {PROJECT} from '../shared/project';
-import Cards from '../components/CardsComponent';
-import MediaModal from '../components/MediaModalComponent';
+import Cards from './CardsComponent';
+import MediaModal from './MediaModalComponent';
 
-function Experiments() {
+function Projects() {
     const [toggleModalOpen, setToggleModalOpen] = React.useState(false)
 const [selectedProject, setSelectedProject] = React.useState("")
 function toggleModal() {
@@ -17,7 +17,7 @@ function projectSelect(selection) {
     return (
         <>
             <h2>
-                <a className="a-invisible" style={{color: "white"}} name="experiments" href="#experiments">Experiments:</a>
+                <a className="a-invisible" style={{color: "white"}} name="projects" href="#projects">Projects:</a>
             </h2>
             <div>
                 <div className="col">
@@ -29,4 +29,4 @@ function projectSelect(selection) {
     );
 }
 
-export default Experiments;
+export default Projects;
