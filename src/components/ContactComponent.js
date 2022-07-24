@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import {
+  Modal,
+  ModalHeader,
+  ModalBody,
   FormGroup,
   Input,
   Label,
@@ -32,6 +35,11 @@ function Contact() {
       );
     e.target.reset();
   };
+
+  const [sendModalOpen, setSendModalOpen] = React.useState(false);
+  function toggleSendModal() {
+    setSendModalOpen((prev) => !prev);
+  }
 
   return (
     <>
@@ -78,13 +86,37 @@ function Contact() {
                   id="message_text"
                 ></Input>
                 <div className="send-button-div">
-                  <input className="send-button" type="submit" value="Send" />
+                  <input
+                    className="send-button"
+                    onClick={toggleSendModal}
+                    type="submit"
+                    value="Send"
+                  />
                 </div>
               </FormGroup>
             </form>
           </Card>
         </Container>
       </div>
+      <Modal
+        isOpen={sendModalOpen}
+        size="md"
+        centered="true"
+        className="message-modal"
+        modalClassName="modal-size"
+        contentClassName="custom-modal"
+      >
+        <ModalHeader
+          toggle={toggleSendModal}
+          className="close-modal"
+          style={{ textAlign: "center" }}
+        >
+          Message Sent
+        </ModalHeader>
+        <ModalBody className="modal-text">
+          Thank you for your message! I will get back to you as soon as I can.
+        </ModalBody>
+      </Modal>
     </>
   );
 }

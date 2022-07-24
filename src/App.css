@@ -375,12 +375,15 @@ border-color: rgb(49, 148, 241);
   border-color: white;
   border-radius: 10em;
   color: white;
-  font-size: 2em;
-  margin: 1em;
+  font-size: 2vw;
+  margin-top: 1em;
   background: linear-gradient(45deg,rgb(49, 148, 241), rgb(49, 148, 241), rgb(13, 207, 214), rgb(13, 207, 214));
-  font-family: Varela Round, Courier !important;
+  font-family: Varela Round, Courier;
+  text-align: center;
 }
-
+ .message-modal {
+  z-index: 4;
+ }
 
 @media only screen and (max-width: 575px) {
   .surround-div {
