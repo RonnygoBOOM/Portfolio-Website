@@ -363,6 +363,25 @@ border-color: rgb(49, 148, 241);
   font-size: 2em;
 }
 
+.contact-form {
+  padding: 0 12vw 0 12vw;
+}
+.send-button-div {
+  display: flex;
+  justify-content: center;
+}
+.send-button {
+  padding: .3em 2em .3em 2em;
+  border-color: white;
+  border-radius: 10em;
+  color: white;
+  font-size: 2em;
+  margin: 1em;
+  background: linear-gradient(45deg,rgb(49, 148, 241), rgb(49, 148, 241), rgb(13, 207, 214), rgb(13, 207, 214));
+  font-family: Varela Round, Courier !important;
+}
+
+
 @media only screen and (max-width: 575px) {
   .surround-div {
     padding: 0 .3em 0 .3em;
