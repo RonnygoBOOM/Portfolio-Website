@@ -29,6 +29,7 @@ About
 <CardText className="about-text about-text-bottom">
     Learning new coding languages, libraries, and frameworks, and experimenting with them is one of my favorite things to do, and I am focused on learning efficiently.  Creatively solving coding challenges, and implementing newly learned skills sparks joy. 
 </CardText>
+{/* TODO: Code this more beautifully with JS objects instead of hard-coding.*/}
 <div className="about-card-images">
     <img src="images/html-logo.png" alt='HTML logo'className="coding-skill-image"></img>
     <img src="images/css3-logo.png" alt='CSS3 logo'className="coding-skill-image"></img>
